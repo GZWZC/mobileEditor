@@ -1,0 +1,27 @@
+{
+  "name": "mobileEditor",
+  "version": "1.0.0",
+  "description": "移动端富文本编辑器",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "webpack-defaults": "webpack-defaults"
+  },
+  "author": {
+    "name": "gzwzc"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "less-loader": "^4.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.7.0",
+    "webpack-cli": "^2.1.2"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
